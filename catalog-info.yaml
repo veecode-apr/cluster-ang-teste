@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: cluster-ang-teste-location
+  description: Location to import all cluster-ang-teste catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
